@@ -1,0 +1,1629 @@
+22:06:03.395 [main] INFO  com.intuit.karate.StepDefs - ide running: C:\Users\usuario\IdeaProjects\original1\karatedemo\src\test\java\features\Jenkins.feature
+22:06:03.991 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:06:05.017 [main] DEBUG com.intuit.karate - 
+1 > GET https://restcountries.eu/rest/v2/name/portugal?fullText=true
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: restcountries.eu
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_251)
+
+22:06:05.472 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Access-Control-Allow-Headers: Accept, X-Requested-With
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5a681be81bc9d669-MAD
+1 < Cache-Control: public, max-age=86400
+1 < Connection: keep-alive
+1 < Content-Type: application/json;charset=utf-8
+1 < Date: Sat, 20 Jun 2020 20:06:12 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d94ecc07692220d05fab28744cbb705251592683572; expires=Mon, 20-Jul-20 20:06:12 GMT; path=/; domain=.restcountries.eu; HttpOnly; SameSite=Lax
+1 < Transfer-Encoding: chunked
+1 < cf-request-id: 0374efc50a0000d66988381200000001
+[{"name":"Portugal","topLevelDomain":[".pt"],"alpha2Code":"PT","alpha3Code":"PRT","callingCodes":["351"],"capital":"Lisbon","altSpellings":["PT","Portuguesa","Portuguese Republic","República Portuguesa"],"region":"Europe","subregion":"Southern Europe","population":10374822,"latlng":[39.5,-8.0],"demonym":"Portuguese","area":92090.0,"gini":38.5,"timezones":["UTC-01:00","UTC"],"borders":["ESP"],"nativeName":"Portugal","numericCode":"620","currencies":[{"code":"EUR","name":"Euro","symbol":"€"}],"languages":[{"iso639_1":"pt","iso639_2":"por","name":"Portuguese","nativeName":"Português"}],"translations":{"de":"Portugal","es":"Portugal","fr":"Portugal","ja":"ポルトガル","it":"Portogallo","br":"Portugal","pt":"Portugal","nl":"Portugal","hr":"Portugal","fa":"پرتغال"},"flag":"https://restcountries.eu/data/prt.svg","regionalBlocs":[{"acronym":"EU","name":"European Union","otherAcronyms":[],"otherNames":[]}],"cioc":"POR"}]
+
+22:06:05.503 [main] DEBUG com.intuit.karate - response time in milliseconds: 1499
+22:06:05.641 [main] INFO  com.intuit.karate - [print] [
+  {
+    "name": "Portugal",
+    "topLevelDomain": [
+      ".pt"
+    ],
+    "alpha2Code": "PT",
+    "alpha3Code": "PRT",
+    "callingCodes": [
+      "351"
+    ],
+    "capital": "Lisbon",
+    "altSpellings": [
+      "PT",
+      "Portuguesa",
+      "Portuguese Republic",
+      "República Portuguesa"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "population": 10374822,
+    "latlng": [
+      39.5,
+      -8.0
+    ],
+    "demonym": "Portuguese",
+    "area": 92090.0,
+    "gini": 38.5,
+    "timezones": [
+      "UTC-01:00",
+      "UTC"
+    ],
+    "borders": [
+      "ESP"
+    ],
+    "nativeName": "Portugal",
+    "numericCode": "620",
+    "currencies": [
+      {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "\u20AC"
+      }
+    ],
+    "languages": [
+      {
+        "iso639_1": "pt",
+        "iso639_2": "por",
+        "name": "Portuguese",
+        "nativeName": "Português"
+      }
+    ],
+    "translations": {
+      "de": "Portugal",
+      "es": "Portugal",
+      "fr": "Portugal",
+      "ja": "ポルトガル",
+      "it": "Portogallo",
+      "br": "Portugal",
+      "pt": "Portugal",
+      "nl": "Portugal",
+      "hr": "Portugal",
+      "fa": "پرتغال"
+    },
+    "flag": "https:\/\/restcountries.eu\/data\/prt.svg",
+    "regionalBlocs": [
+      {
+        "acronym": "EU",
+        "name": "European Union",
+        "otherAcronyms": [
+        ],
+        "otherNames": [
+        ]
+      }
+    ],
+    "cioc": "POR"
+  }
+]
+
+22:06:29.753 [main] INFO  com.intuit.karate.StepDefs - ide running: C:\Users\usuario\IdeaProjects\original1\karatedemo\src\test\java\features\tiara.feature
+22:06:30.566 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:06:31.586 [main] DEBUG com.intuit.karate - 
+1 > GET https://sigom-rest-api-cib-ppt-sec-remediation-dev.appls.boaw.paas.gsnetcloud.corp/v0/entity/32714.4
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: sigom-rest-api-cib-ppt-sec-remediation-dev.appls.boaw.paas.gsnetcloud.corp
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_251)
+
+22:06:31.874 [main] ERROR com.intuit.karate - javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target, http call failed after 1280 milliseconds for URL: https://sigom-rest-api-cib-ppt-sec-remediation-dev.appls.boaw.paas.gsnetcloud.corp/v0/entity/32714.4
+22:11:04.256 [main] INFO  com.intuit.karate.StepDefs - ide running: C:\Users\usuario\IdeaProjects\original1\karatedemo\src\test\java\features\tiara.feature
+22:11:05.029 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:11:05.994 [main] DEBUG com.intuit.karate - 
+1 > GET https://sigom-rest-api-cib-ppt-sec-remediation-dev.appls.boaw.paas.gsnetcloud.corp/v0/entity/32714.4
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: sigom-rest-api-cib-ppt-sec-remediation-dev.appls.boaw.paas.gsnetcloud.corp
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_251)
+
+22:11:06.274 [main] ERROR com.intuit.karate - javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target, http call failed after 1197 milliseconds for URL: https://sigom-rest-api-cib-ppt-sec-remediation-dev.appls.boaw.paas.gsnetcloud.corp/v0/entity/32714.4
+22:11:16.653 [main] INFO  com.intuit.karate.StepDefs - ide running: C:\Users\usuario\IdeaProjects\original1\karatedemo\src\test\java\features\Jenkins.feature
+22:11:17.382 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:11:18.271 [main] DEBUG com.intuit.karate - 
+1 > GET https://restcountries.eu/rest/v2/name/portugal?fullText=true
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: restcountries.eu
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_251)
+
+22:11:18.724 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Access-Control-Allow-Headers: Accept, X-Requested-With
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5a68238dcd9cff64-MAD
+1 < Cache-Control: public, max-age=86400
+1 < Connection: keep-alive
+1 < Content-Type: application/json;charset=utf-8
+1 < Date: Sat, 20 Jun 2020 20:11:25 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d7e0ca40445406be8c7f85143915f3f611592683885; expires=Mon, 20-Jul-20 20:11:25 GMT; path=/; domain=.restcountries.eu; HttpOnly; SameSite=Lax
+1 < Transfer-Encoding: chunked
+1 < cf-request-id: 0374f48c9e0000ff64612f7200000001
+[{"name":"Portugal","topLevelDomain":[".pt"],"alpha2Code":"PT","alpha3Code":"PRT","callingCodes":["351"],"capital":"Lisbon","altSpellings":["PT","Portuguesa","Portuguese Republic","República Portuguesa"],"region":"Europe","subregion":"Southern Europe","population":10374822,"latlng":[39.5,-8.0],"demonym":"Portuguese","area":92090.0,"gini":38.5,"timezones":["UTC-01:00","UTC"],"borders":["ESP"],"nativeName":"Portugal","numericCode":"620","currencies":[{"code":"EUR","name":"Euro","symbol":"€"}],"languages":[{"iso639_1":"pt","iso639_2":"por","name":"Portuguese","nativeName":"Português"}],"translations":{"de":"Portugal","es":"Portugal","fr":"Portugal","ja":"ポルトガル","it":"Portogallo","br":"Portugal","pt":"Portugal","nl":"Portugal","hr":"Portugal","fa":"پرتغال"},"flag":"https://restcountries.eu/data/prt.svg","regionalBlocs":[{"acronym":"EU","name":"European Union","otherAcronyms":[],"otherNames":[]}],"cioc":"POR"}]
+
+22:11:18.728 [main] DEBUG com.intuit.karate - response time in milliseconds: 1308
+22:11:18.808 [main] INFO  com.intuit.karate - [print] [
+  {
+    "name": "Portugal",
+    "topLevelDomain": [
+      ".pt"
+    ],
+    "alpha2Code": "PT",
+    "alpha3Code": "PRT",
+    "callingCodes": [
+      "351"
+    ],
+    "capital": "Lisbon",
+    "altSpellings": [
+      "PT",
+      "Portuguesa",
+      "Portuguese Republic",
+      "República Portuguesa"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "population": 10374822,
+    "latlng": [
+      39.5,
+      -8.0
+    ],
+    "demonym": "Portuguese",
+    "area": 92090.0,
+    "gini": 38.5,
+    "timezones": [
+      "UTC-01:00",
+      "UTC"
+    ],
+    "borders": [
+      "ESP"
+    ],
+    "nativeName": "Portugal",
+    "numericCode": "620",
+    "currencies": [
+      {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "\u20AC"
+      }
+    ],
+    "languages": [
+      {
+        "iso639_1": "pt",
+        "iso639_2": "por",
+        "name": "Portuguese",
+        "nativeName": "Português"
+      }
+    ],
+    "translations": {
+      "de": "Portugal",
+      "es": "Portugal",
+      "fr": "Portugal",
+      "ja": "ポルトガル",
+      "it": "Portogallo",
+      "br": "Portugal",
+      "pt": "Portugal",
+      "nl": "Portugal",
+      "hr": "Portugal",
+      "fa": "پرتغال"
+    },
+    "flag": "https:\/\/restcountries.eu\/data\/prt.svg",
+    "regionalBlocs": [
+      {
+        "acronym": "EU",
+        "name": "European Union",
+        "otherAcronyms": [
+        ],
+        "otherNames": [
+        ]
+      }
+    ],
+    "cioc": "POR"
+  }
+]
+
+22:11:56.022 [main] INFO  com.intuit.karate.StepDefs - ide running: C:\Users\usuario\IdeaProjects\original1\karatedemo\src\test\java\features\Jenkins.feature
+22:11:56.808 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:11:57.766 [main] DEBUG com.intuit.karate - 
+1 > GET https://restcountries.eu/rest/v2/name/portugal?fullText=true
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: restcountries.eu
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_251)
+
+22:11:58.152 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Access-Control-Allow-Headers: Accept, X-Requested-With
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5a6824843d43c66b-MAD
+1 < Cache-Control: public, max-age=86400
+1 < Connection: keep-alive
+1 < Content-Type: application/json;charset=utf-8
+1 < Date: Sat, 20 Jun 2020 20:12:05 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=dc6469b06fefd2e1baf87d577ed3494ee1592683925; expires=Mon, 20-Jul-20 20:12:05 GMT; path=/; domain=.restcountries.eu; HttpOnly; SameSite=Lax
+1 < Transfer-Encoding: chunked
+1 < cf-request-id: 0374f526a40000c66b5f033200000001
+[{"name":"Portugal","topLevelDomain":[".pt"],"alpha2Code":"PT","alpha3Code":"PRT","callingCodes":["351"],"capital":"Lisbon","altSpellings":["PT","Portuguesa","Portuguese Republic","República Portuguesa"],"region":"Europe","subregion":"Southern Europe","population":10374822,"latlng":[39.5,-8.0],"demonym":"Portuguese","area":92090.0,"gini":38.5,"timezones":["UTC-01:00","UTC"],"borders":["ESP"],"nativeName":"Portugal","numericCode":"620","currencies":[{"code":"EUR","name":"Euro","symbol":"€"}],"languages":[{"iso639_1":"pt","iso639_2":"por","name":"Portuguese","nativeName":"Português"}],"translations":{"de":"Portugal","es":"Portugal","fr":"Portugal","ja":"ポルトガル","it":"Portogallo","br":"Portugal","pt":"Portugal","nl":"Portugal","hr":"Portugal","fa":"پرتغال"},"flag":"https://restcountries.eu/data/prt.svg","regionalBlocs":[{"acronym":"EU","name":"European Union","otherAcronyms":[],"otherNames":[]}],"cioc":"POR"}]
+
+22:11:58.158 [main] DEBUG com.intuit.karate - response time in milliseconds: 1316
+22:11:58.216 [main] INFO  com.intuit.karate - [print] [
+  {
+    "name": "Portugal",
+    "topLevelDomain": [
+      ".pt"
+    ],
+    "alpha2Code": "PT",
+    "alpha3Code": "PRT",
+    "callingCodes": [
+      "351"
+    ],
+    "capital": "Lisbon",
+    "altSpellings": [
+      "PT",
+      "Portuguesa",
+      "Portuguese Republic",
+      "República Portuguesa"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "population": 10374822,
+    "latlng": [
+      39.5,
+      -8.0
+    ],
+    "demonym": "Portuguese",
+    "area": 92090.0,
+    "gini": 38.5,
+    "timezones": [
+      "UTC-01:00",
+      "UTC"
+    ],
+    "borders": [
+      "ESP"
+    ],
+    "nativeName": "Portugal",
+    "numericCode": "620",
+    "currencies": [
+      {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "\u20AC"
+      }
+    ],
+    "languages": [
+      {
+        "iso639_1": "pt",
+        "iso639_2": "por",
+        "name": "Portuguese",
+        "nativeName": "Português"
+      }
+    ],
+    "translations": {
+      "de": "Portugal",
+      "es": "Portugal",
+      "fr": "Portugal",
+      "ja": "ポルトガル",
+      "it": "Portogallo",
+      "br": "Portugal",
+      "pt": "Portugal",
+      "nl": "Portugal",
+      "hr": "Portugal",
+      "fa": "پرتغال"
+    },
+    "flag": "https:\/\/restcountries.eu\/data\/prt.svg",
+    "regionalBlocs": [
+      {
+        "acronym": "EU",
+        "name": "European Union",
+        "otherAcronyms": [
+        ],
+        "otherNames": [
+        ]
+      }
+    ],
+    "cioc": "POR"
+  }
+]
+
+22:12:55.406 [main] INFO  com.intuit.karate.StepDefs - ide running: C:\Users\usuario\IdeaProjects\original1\karatedemo\src\test\java\features\Jenkins.feature
+22:12:56.215 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:12:57.086 [main] DEBUG com.intuit.karate - 
+1 > GET https://restcountries.eu/rest/v2/name/portugal?fullText=true
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: restcountries.eu
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_251)
+
+22:12:57.546 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Access-Control-Allow-Headers: Accept, X-Requested-With
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5a6825f76c2b1155-MAD
+1 < Cache-Control: public, max-age=86400
+1 < Connection: keep-alive
+1 < Content-Type: application/json;charset=utf-8
+1 < Date: Sat, 20 Jun 2020 20:13:04 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d284134003f91984912a7b2e2339f8a0a1592683984; expires=Mon, 20-Jul-20 20:13:04 GMT; path=/; domain=.restcountries.eu; HttpOnly; SameSite=Lax
+1 < Transfer-Encoding: chunked
+1 < cf-request-id: 0374f60ea500001155351be200000001
+[{"name":"Portugal","topLevelDomain":[".pt"],"alpha2Code":"PT","alpha3Code":"PRT","callingCodes":["351"],"capital":"Lisbon","altSpellings":["PT","Portuguesa","Portuguese Republic","República Portuguesa"],"region":"Europe","subregion":"Southern Europe","population":10374822,"latlng":[39.5,-8.0],"demonym":"Portuguese","area":92090.0,"gini":38.5,"timezones":["UTC-01:00","UTC"],"borders":["ESP"],"nativeName":"Portugal","numericCode":"620","currencies":[{"code":"EUR","name":"Euro","symbol":"€"}],"languages":[{"iso639_1":"pt","iso639_2":"por","name":"Portuguese","nativeName":"Português"}],"translations":{"de":"Portugal","es":"Portugal","fr":"Portugal","ja":"ポルトガル","it":"Portogallo","br":"Portugal","pt":"Portugal","nl":"Portugal","hr":"Portugal","fa":"پرتغال"},"flag":"https://restcountries.eu/data/prt.svg","regionalBlocs":[{"acronym":"EU","name":"European Union","otherAcronyms":[],"otherNames":[]}],"cioc":"POR"}]
+
+22:12:57.547 [main] DEBUG com.intuit.karate - response time in milliseconds: 1309
+22:12:57.641 [main] INFO  com.intuit.karate - [print] [
+  {
+    "name": "Portugal",
+    "topLevelDomain": [
+      ".pt"
+    ],
+    "alpha2Code": "PT",
+    "alpha3Code": "PRT",
+    "callingCodes": [
+      "351"
+    ],
+    "capital": "Lisbon",
+    "altSpellings": [
+      "PT",
+      "Portuguesa",
+      "Portuguese Republic",
+      "República Portuguesa"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "population": 10374822,
+    "latlng": [
+      39.5,
+      -8.0
+    ],
+    "demonym": "Portuguese",
+    "area": 92090.0,
+    "gini": 38.5,
+    "timezones": [
+      "UTC-01:00",
+      "UTC"
+    ],
+    "borders": [
+      "ESP"
+    ],
+    "nativeName": "Portugal",
+    "numericCode": "620",
+    "currencies": [
+      {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "\u20AC"
+      }
+    ],
+    "languages": [
+      {
+        "iso639_1": "pt",
+        "iso639_2": "por",
+        "name": "Portuguese",
+        "nativeName": "Português"
+      }
+    ],
+    "translations": {
+      "de": "Portugal",
+      "es": "Portugal",
+      "fr": "Portugal",
+      "ja": "ポルトガル",
+      "it": "Portogallo",
+      "br": "Portugal",
+      "pt": "Portugal",
+      "nl": "Portugal",
+      "hr": "Portugal",
+      "fa": "پرتغال"
+    },
+    "flag": "https:\/\/restcountries.eu\/data\/prt.svg",
+    "regionalBlocs": [
+      {
+        "acronym": "EU",
+        "name": "European Union",
+        "otherAcronyms": [
+        ],
+        "otherNames": [
+        ]
+      }
+    ],
+    "cioc": "POR"
+  }
+]
+
+22:12:57.654 [main] ERROR com.intuit.karate - assertion failed: path: $[0].name, actual: 'Portugal', expected: 'spain', reason: not equal
+22:30:26.779 [main] INFO  com.intuit.karate.StepDefs - ide running: C:\Users\usuario\IdeaProjects\original1\karatedemo\src\test\java\features\Jenkins.feature
+22:30:27.626 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:30:28.529 [main] DEBUG com.intuit.karate - 
+1 > GET https://restcountries.eu/rest/v2/name/portugal?fullText=true
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: restcountries.eu
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_251)
+
+22:30:29.052 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Access-Control-Allow-Headers: Accept, X-Requested-With
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5a683fa35c04d66d-MAD
+1 < Cache-Control: public, max-age=86400
+1 < Connection: keep-alive
+1 < Content-Type: application/json;charset=utf-8
+1 < Date: Sat, 20 Jun 2020 20:30:36 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=db08ee7a617d89a8160db54876ebe86241592685036; expires=Mon, 20-Jul-20 20:30:36 GMT; path=/; domain=.restcountries.eu; HttpOnly; SameSite=Lax
+1 < Transfer-Encoding: chunked
+1 < cf-request-id: 0375061a150000d66da63a9200000001
+[{"name":"Portugal","topLevelDomain":[".pt"],"alpha2Code":"PT","alpha3Code":"PRT","callingCodes":["351"],"capital":"Lisbon","altSpellings":["PT","Portuguesa","Portuguese Republic","República Portuguesa"],"region":"Europe","subregion":"Southern Europe","population":10374822,"latlng":[39.5,-8.0],"demonym":"Portuguese","area":92090.0,"gini":38.5,"timezones":["UTC-01:00","UTC"],"borders":["ESP"],"nativeName":"Portugal","numericCode":"620","currencies":[{"code":"EUR","name":"Euro","symbol":"€"}],"languages":[{"iso639_1":"pt","iso639_2":"por","name":"Portuguese","nativeName":"Português"}],"translations":{"de":"Portugal","es":"Portugal","fr":"Portugal","ja":"ポルトガル","it":"Portogallo","br":"Portugal","pt":"Portugal","nl":"Portugal","hr":"Portugal","fa":"پرتغال"},"flag":"https://restcountries.eu/data/prt.svg","regionalBlocs":[{"acronym":"EU","name":"European Union","otherAcronyms":[],"otherNames":[]}],"cioc":"POR"}]
+
+22:30:29.053 [main] DEBUG com.intuit.karate - response time in milliseconds: 1399
+22:30:29.198 [main] INFO  com.intuit.karate - [print] [
+  {
+    "name": "Portugal",
+    "topLevelDomain": [
+      ".pt"
+    ],
+    "alpha2Code": "PT",
+    "alpha3Code": "PRT",
+    "callingCodes": [
+      "351"
+    ],
+    "capital": "Lisbon",
+    "altSpellings": [
+      "PT",
+      "Portuguesa",
+      "Portuguese Republic",
+      "República Portuguesa"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "population": 10374822,
+    "latlng": [
+      39.5,
+      -8.0
+    ],
+    "demonym": "Portuguese",
+    "area": 92090.0,
+    "gini": 38.5,
+    "timezones": [
+      "UTC-01:00",
+      "UTC"
+    ],
+    "borders": [
+      "ESP"
+    ],
+    "nativeName": "Portugal",
+    "numericCode": "620",
+    "currencies": [
+      {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "\u20AC"
+      }
+    ],
+    "languages": [
+      {
+        "iso639_1": "pt",
+        "iso639_2": "por",
+        "name": "Portuguese",
+        "nativeName": "Português"
+      }
+    ],
+    "translations": {
+      "de": "Portugal",
+      "es": "Portugal",
+      "fr": "Portugal",
+      "ja": "ポルトガル",
+      "it": "Portogallo",
+      "br": "Portugal",
+      "pt": "Portugal",
+      "nl": "Portugal",
+      "hr": "Portugal",
+      "fa": "پرتغال"
+    },
+    "flag": "https:\/\/restcountries.eu\/data\/prt.svg",
+    "regionalBlocs": [
+      {
+        "acronym": "EU",
+        "name": "European Union",
+        "otherAcronyms": [
+        ],
+        "otherNames": [
+        ]
+      }
+    ],
+    "cioc": "POR"
+  }
+]
+
+22:31:05.304 [main] INFO  com.intuit.karate.StepDefs - ide running: C:\Users\usuario\IdeaProjects\original1\karatedemo\src\test\java\features\Jenkins.feature
+22:31:06.323 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:31:07.376 [main] DEBUG com.intuit.karate - 
+1 > GET https://restcountries.eu/rest/v2/name/portugal?fullText=true
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: restcountries.eu
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_251)
+
+22:31:07.818 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Access-Control-Allow-Headers: Accept, X-Requested-With
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5a684095b953112d-MAD
+1 < Cache-Control: public, max-age=86400
+1 < Connection: keep-alive
+1 < Content-Type: application/json;charset=utf-8
+1 < Date: Sat, 20 Jun 2020 20:31:14 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=da755da0074510c6c8dfc9e6a1d58091a1592685074; expires=Mon, 20-Jul-20 20:31:14 GMT; path=/; domain=.restcountries.eu; HttpOnly; SameSite=Lax
+1 < Transfer-Encoding: chunked
+1 < cf-request-id: 037506b1960000112dc29a7200000001
+[{"name":"Portugal","topLevelDomain":[".pt"],"alpha2Code":"PT","alpha3Code":"PRT","callingCodes":["351"],"capital":"Lisbon","altSpellings":["PT","Portuguesa","Portuguese Republic","República Portuguesa"],"region":"Europe","subregion":"Southern Europe","population":10374822,"latlng":[39.5,-8.0],"demonym":"Portuguese","area":92090.0,"gini":38.5,"timezones":["UTC-01:00","UTC"],"borders":["ESP"],"nativeName":"Portugal","numericCode":"620","currencies":[{"code":"EUR","name":"Euro","symbol":"€"}],"languages":[{"iso639_1":"pt","iso639_2":"por","name":"Portuguese","nativeName":"Português"}],"translations":{"de":"Portugal","es":"Portugal","fr":"Portugal","ja":"ポルトガル","it":"Portogallo","br":"Portugal","pt":"Portugal","nl":"Portugal","hr":"Portugal","fa":"پرتغال"},"flag":"https://restcountries.eu/data/prt.svg","regionalBlocs":[{"acronym":"EU","name":"European Union","otherAcronyms":[],"otherNames":[]}],"cioc":"POR"}]
+
+22:31:07.819 [main] DEBUG com.intuit.karate - response time in milliseconds: 1463
+22:31:07.909 [main] INFO  com.intuit.karate - [print] [
+  {
+    "name": "Portugal",
+    "topLevelDomain": [
+      ".pt"
+    ],
+    "alpha2Code": "PT",
+    "alpha3Code": "PRT",
+    "callingCodes": [
+      "351"
+    ],
+    "capital": "Lisbon",
+    "altSpellings": [
+      "PT",
+      "Portuguesa",
+      "Portuguese Republic",
+      "República Portuguesa"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "population": 10374822,
+    "latlng": [
+      39.5,
+      -8.0
+    ],
+    "demonym": "Portuguese",
+    "area": 92090.0,
+    "gini": 38.5,
+    "timezones": [
+      "UTC-01:00",
+      "UTC"
+    ],
+    "borders": [
+      "ESP"
+    ],
+    "nativeName": "Portugal",
+    "numericCode": "620",
+    "currencies": [
+      {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "\u20AC"
+      }
+    ],
+    "languages": [
+      {
+        "iso639_1": "pt",
+        "iso639_2": "por",
+        "name": "Portuguese",
+        "nativeName": "Português"
+      }
+    ],
+    "translations": {
+      "de": "Portugal",
+      "es": "Portugal",
+      "fr": "Portugal",
+      "ja": "ポルトガル",
+      "it": "Portogallo",
+      "br": "Portugal",
+      "pt": "Portugal",
+      "nl": "Portugal",
+      "hr": "Portugal",
+      "fa": "پرتغال"
+    },
+    "flag": "https:\/\/restcountries.eu\/data\/prt.svg",
+    "regionalBlocs": [
+      {
+        "acronym": "EU",
+        "name": "European Union",
+        "otherAcronyms": [
+        ],
+        "otherNames": [
+        ]
+      }
+    ],
+    "cioc": "POR"
+  }
+]
+
+22:31:33.369 [main] INFO  com.intuit.karate.StepDefs - ide running: C:\Users\usuario\IdeaProjects\original1\karatedemo\src\test\java\features\Jenkins.feature
+22:31:34.213 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:31:35.135 [main] DEBUG com.intuit.karate - 
+1 > GET https://restcountries.eu/rest/v2/name/portugal?fullText=true
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: restcountries.eu
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_251)
+
+22:31:35.640 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Access-Control-Allow-Headers: Accept, X-Requested-With
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5a6841437b17d671-MAD
+1 < Cache-Control: public, max-age=86400
+1 < Connection: keep-alive
+1 < Content-Type: application/json;charset=utf-8
+1 < Date: Sat, 20 Jun 2020 20:31:42 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d4ffbde3b02051755b29480c713d10b551592685102; expires=Mon, 20-Jul-20 20:31:42 GMT; path=/; domain=.restcountries.eu; HttpOnly; SameSite=Lax
+1 < Transfer-Encoding: chunked
+1 < cf-request-id: 0375071e260000d6710699e200000001
+[{"name":"Portugal","topLevelDomain":[".pt"],"alpha2Code":"PT","alpha3Code":"PRT","callingCodes":["351"],"capital":"Lisbon","altSpellings":["PT","Portuguesa","Portuguese Republic","República Portuguesa"],"region":"Europe","subregion":"Southern Europe","population":10374822,"latlng":[39.5,-8.0],"demonym":"Portuguese","area":92090.0,"gini":38.5,"timezones":["UTC-01:00","UTC"],"borders":["ESP"],"nativeName":"Portugal","numericCode":"620","currencies":[{"code":"EUR","name":"Euro","symbol":"€"}],"languages":[{"iso639_1":"pt","iso639_2":"por","name":"Portuguese","nativeName":"Português"}],"translations":{"de":"Portugal","es":"Portugal","fr":"Portugal","ja":"ポルトガル","it":"Portogallo","br":"Portugal","pt":"Portugal","nl":"Portugal","hr":"Portugal","fa":"پرتغال"},"flag":"https://restcountries.eu/data/prt.svg","regionalBlocs":[{"acronym":"EU","name":"European Union","otherAcronyms":[],"otherNames":[]}],"cioc":"POR"}]
+
+22:31:35.642 [main] DEBUG com.intuit.karate - response time in milliseconds: 1399
+22:31:35.722 [main] INFO  com.intuit.karate - [print] [
+  {
+    "name": "Portugal",
+    "topLevelDomain": [
+      ".pt"
+    ],
+    "alpha2Code": "PT",
+    "alpha3Code": "PRT",
+    "callingCodes": [
+      "351"
+    ],
+    "capital": "Lisbon",
+    "altSpellings": [
+      "PT",
+      "Portuguesa",
+      "Portuguese Republic",
+      "República Portuguesa"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "population": 10374822,
+    "latlng": [
+      39.5,
+      -8.0
+    ],
+    "demonym": "Portuguese",
+    "area": 92090.0,
+    "gini": 38.5,
+    "timezones": [
+      "UTC-01:00",
+      "UTC"
+    ],
+    "borders": [
+      "ESP"
+    ],
+    "nativeName": "Portugal",
+    "numericCode": "620",
+    "currencies": [
+      {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "\u20AC"
+      }
+    ],
+    "languages": [
+      {
+        "iso639_1": "pt",
+        "iso639_2": "por",
+        "name": "Portuguese",
+        "nativeName": "Português"
+      }
+    ],
+    "translations": {
+      "de": "Portugal",
+      "es": "Portugal",
+      "fr": "Portugal",
+      "ja": "ポルトガル",
+      "it": "Portogallo",
+      "br": "Portugal",
+      "pt": "Portugal",
+      "nl": "Portugal",
+      "hr": "Portugal",
+      "fa": "پرتغال"
+    },
+    "flag": "https:\/\/restcountries.eu\/data\/prt.svg",
+    "regionalBlocs": [
+      {
+        "acronym": "EU",
+        "name": "European Union",
+        "otherAcronyms": [
+        ],
+        "otherNames": [
+        ]
+      }
+    ],
+    "cioc": "POR"
+  }
+]
+
+22:31:35.738 [main] ERROR com.intuit.karate - assertion failed: path: $[0].name, actual: 'Portugal', expected: 'ortugal', reason: not equal
+22:44:58.417 [main] INFO  com.intuit.karate.StepDefs - ide running: C:\Users\usuario\IdeaProjects\original1\karatedemo\src\test\java\features\Jenkins.feature
+22:44:59.210 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:45:00.175 [main] DEBUG com.intuit.karate - 
+1 > GET https://restcountries.eu/rest/v2/name/portugal?fullText=true
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: restcountries.eu
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_251)
+
+22:45:00.700 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Access-Control-Allow-Headers: Accept, X-Requested-With
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5a6854eaccf7d669-MAD
+1 < Cache-Control: public, max-age=86400
+1 < Connection: keep-alive
+1 < Content-Type: application/json;charset=utf-8
+1 < Date: Sat, 20 Jun 2020 20:45:07 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d25b29c87c8ae7eaec5048887d8dbd6c81592685907; expires=Mon, 20-Jul-20 20:45:07 GMT; path=/; domain=.restcountries.eu; HttpOnly; SameSite=Lax
+1 < Transfer-Encoding: chunked
+1 < cf-request-id: 03751366bb0000d66982380200000001
+[{"name":"Portugal","topLevelDomain":[".pt"],"alpha2Code":"PT","alpha3Code":"PRT","callingCodes":["351"],"capital":"Lisbon","altSpellings":["PT","Portuguesa","Portuguese Republic","República Portuguesa"],"region":"Europe","subregion":"Southern Europe","population":10374822,"latlng":[39.5,-8.0],"demonym":"Portuguese","area":92090.0,"gini":38.5,"timezones":["UTC-01:00","UTC"],"borders":["ESP"],"nativeName":"Portugal","numericCode":"620","currencies":[{"code":"EUR","name":"Euro","symbol":"€"}],"languages":[{"iso639_1":"pt","iso639_2":"por","name":"Portuguese","nativeName":"Português"}],"translations":{"de":"Portugal","es":"Portugal","fr":"Portugal","ja":"ポルトガル","it":"Portogallo","br":"Portugal","pt":"Portugal","nl":"Portugal","hr":"Portugal","fa":"پرتغال"},"flag":"https://restcountries.eu/data/prt.svg","regionalBlocs":[{"acronym":"EU","name":"European Union","otherAcronyms":[],"otherNames":[]}],"cioc":"POR"}]
+
+22:45:00.701 [main] DEBUG com.intuit.karate - response time in milliseconds: 1456
+22:45:00.757 [main] INFO  com.intuit.karate - [print] [
+  {
+    "name": "Portugal",
+    "topLevelDomain": [
+      ".pt"
+    ],
+    "alpha2Code": "PT",
+    "alpha3Code": "PRT",
+    "callingCodes": [
+      "351"
+    ],
+    "capital": "Lisbon",
+    "altSpellings": [
+      "PT",
+      "Portuguesa",
+      "Portuguese Republic",
+      "República Portuguesa"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "population": 10374822,
+    "latlng": [
+      39.5,
+      -8.0
+    ],
+    "demonym": "Portuguese",
+    "area": 92090.0,
+    "gini": 38.5,
+    "timezones": [
+      "UTC-01:00",
+      "UTC"
+    ],
+    "borders": [
+      "ESP"
+    ],
+    "nativeName": "Portugal",
+    "numericCode": "620",
+    "currencies": [
+      {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "\u20AC"
+      }
+    ],
+    "languages": [
+      {
+        "iso639_1": "pt",
+        "iso639_2": "por",
+        "name": "Portuguese",
+        "nativeName": "Português"
+      }
+    ],
+    "translations": {
+      "de": "Portugal",
+      "es": "Portugal",
+      "fr": "Portugal",
+      "ja": "ポルトガル",
+      "it": "Portogallo",
+      "br": "Portugal",
+      "pt": "Portugal",
+      "nl": "Portugal",
+      "hr": "Portugal",
+      "fa": "پرتغال"
+    },
+    "flag": "https:\/\/restcountries.eu\/data\/prt.svg",
+    "regionalBlocs": [
+      {
+        "acronym": "EU",
+        "name": "European Union",
+        "otherAcronyms": [
+        ],
+        "otherNames": [
+        ]
+      }
+    ],
+    "cioc": "POR"
+  }
+]
+
+22:45:51.734 [main] INFO  com.intuit.karate.StepDefs - ide running: C:\Users\usuario\IdeaProjects\original1\karatedemo\src\test\java\features\Jenkins.feature
+22:45:52.525 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:45:53.425 [main] DEBUG com.intuit.karate - 
+1 > GET https://restcountries.eu/rest/v2/name/portugal?fullText=true
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: restcountries.eu
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_251)
+
+22:45:53.869 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Access-Control-Allow-Headers: Accept, X-Requested-With
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5a6856376aadff70-MAD
+1 < Cache-Control: public, max-age=86400
+1 < Connection: keep-alive
+1 < Content-Type: application/json;charset=utf-8
+1 < Date: Sat, 20 Jun 2020 20:46:00 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=db39fd0f886d0c94d7e5b0ef5aa8bd0d11592685960; expires=Mon, 20-Jul-20 20:46:00 GMT; path=/; domain=.restcountries.eu; HttpOnly; SameSite=Lax
+1 < Transfer-Encoding: chunked
+1 < cf-request-id: 03751436a20000ff706eb5b200000001
+[{"name":"Portugal","topLevelDomain":[".pt"],"alpha2Code":"PT","alpha3Code":"PRT","callingCodes":["351"],"capital":"Lisbon","altSpellings":["PT","Portuguesa","Portuguese Republic","República Portuguesa"],"region":"Europe","subregion":"Southern Europe","population":10374822,"latlng":[39.5,-8.0],"demonym":"Portuguese","area":92090.0,"gini":38.5,"timezones":["UTC-01:00","UTC"],"borders":["ESP"],"nativeName":"Portugal","numericCode":"620","currencies":[{"code":"EUR","name":"Euro","symbol":"€"}],"languages":[{"iso639_1":"pt","iso639_2":"por","name":"Portuguese","nativeName":"Português"}],"translations":{"de":"Portugal","es":"Portugal","fr":"Portugal","ja":"ポルトガル","it":"Portogallo","br":"Portugal","pt":"Portugal","nl":"Portugal","hr":"Portugal","fa":"پرتغال"},"flag":"https://restcountries.eu/data/prt.svg","regionalBlocs":[{"acronym":"EU","name":"European Union","otherAcronyms":[],"otherNames":[]}],"cioc":"POR"}]
+
+22:45:53.870 [main] DEBUG com.intuit.karate - response time in milliseconds: 1321
+22:45:53.955 [main] INFO  com.intuit.karate - [print] [
+  {
+    "name": "Portugal",
+    "topLevelDomain": [
+      ".pt"
+    ],
+    "alpha2Code": "PT",
+    "alpha3Code": "PRT",
+    "callingCodes": [
+      "351"
+    ],
+    "capital": "Lisbon",
+    "altSpellings": [
+      "PT",
+      "Portuguesa",
+      "Portuguese Republic",
+      "República Portuguesa"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "population": 10374822,
+    "latlng": [
+      39.5,
+      -8.0
+    ],
+    "demonym": "Portuguese",
+    "area": 92090.0,
+    "gini": 38.5,
+    "timezones": [
+      "UTC-01:00",
+      "UTC"
+    ],
+    "borders": [
+      "ESP"
+    ],
+    "nativeName": "Portugal",
+    "numericCode": "620",
+    "currencies": [
+      {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "\u20AC"
+      }
+    ],
+    "languages": [
+      {
+        "iso639_1": "pt",
+        "iso639_2": "por",
+        "name": "Portuguese",
+        "nativeName": "Português"
+      }
+    ],
+    "translations": {
+      "de": "Portugal",
+      "es": "Portugal",
+      "fr": "Portugal",
+      "ja": "ポルトガル",
+      "it": "Portogallo",
+      "br": "Portugal",
+      "pt": "Portugal",
+      "nl": "Portugal",
+      "hr": "Portugal",
+      "fa": "پرتغال"
+    },
+    "flag": "https:\/\/restcountries.eu\/data\/prt.svg",
+    "regionalBlocs": [
+      {
+        "acronym": "EU",
+        "name": "European Union",
+        "otherAcronyms": [
+        ],
+        "otherNames": [
+        ]
+      }
+    ],
+    "cioc": "POR"
+  }
+]
+
+22:46:30.721 [main] INFO  com.intuit.karate.StepDefs - ide running: C:\Users\usuario\IdeaProjects\original1\karatedemo\src\test\java\features\Jenkins.feature
+22:46:31.559 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:46:32.457 [main] DEBUG com.intuit.karate - 
+1 > GET https://restcountries.eu/rest/v2/name/portugal?fullText=true
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: restcountries.eu
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_251)
+
+22:46:32.874 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Access-Control-Allow-Headers: Accept, X-Requested-With
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5a68572b4ab6ff5c-MAD
+1 < Cache-Control: public, max-age=86400
+1 < Connection: keep-alive
+1 < Content-Type: application/json;charset=utf-8
+1 < Date: Sat, 20 Jun 2020 20:46:39 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d721224ca50bc5b74091bc5b3976ccd9f1592685999; expires=Mon, 20-Jul-20 20:46:39 GMT; path=/; domain=.restcountries.eu; HttpOnly; SameSite=Lax
+1 < Transfer-Encoding: chunked
+1 < cf-request-id: 037514cf0e0000ff5c088c1200000001
+[{"name":"Portugal","topLevelDomain":[".pt"],"alpha2Code":"PT","alpha3Code":"PRT","callingCodes":["351"],"capital":"Lisbon","altSpellings":["PT","Portuguesa","Portuguese Republic","República Portuguesa"],"region":"Europe","subregion":"Southern Europe","population":10374822,"latlng":[39.5,-8.0],"demonym":"Portuguese","area":92090.0,"gini":38.5,"timezones":["UTC-01:00","UTC"],"borders":["ESP"],"nativeName":"Portugal","numericCode":"620","currencies":[{"code":"EUR","name":"Euro","symbol":"€"}],"languages":[{"iso639_1":"pt","iso639_2":"por","name":"Portuguese","nativeName":"Português"}],"translations":{"de":"Portugal","es":"Portugal","fr":"Portugal","ja":"ポルトガル","it":"Portogallo","br":"Portugal","pt":"Portugal","nl":"Portugal","hr":"Portugal","fa":"پرتغال"},"flag":"https://restcountries.eu/data/prt.svg","regionalBlocs":[{"acronym":"EU","name":"European Union","otherAcronyms":[],"otherNames":[]}],"cioc":"POR"}]
+
+22:46:32.875 [main] DEBUG com.intuit.karate - response time in milliseconds: 1288
+22:46:32.949 [main] INFO  com.intuit.karate - [print] [
+  {
+    "name": "Portugal",
+    "topLevelDomain": [
+      ".pt"
+    ],
+    "alpha2Code": "PT",
+    "alpha3Code": "PRT",
+    "callingCodes": [
+      "351"
+    ],
+    "capital": "Lisbon",
+    "altSpellings": [
+      "PT",
+      "Portuguesa",
+      "Portuguese Republic",
+      "República Portuguesa"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "population": 10374822,
+    "latlng": [
+      39.5,
+      -8.0
+    ],
+    "demonym": "Portuguese",
+    "area": 92090.0,
+    "gini": 38.5,
+    "timezones": [
+      "UTC-01:00",
+      "UTC"
+    ],
+    "borders": [
+      "ESP"
+    ],
+    "nativeName": "Portugal",
+    "numericCode": "620",
+    "currencies": [
+      {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "\u20AC"
+      }
+    ],
+    "languages": [
+      {
+        "iso639_1": "pt",
+        "iso639_2": "por",
+        "name": "Portuguese",
+        "nativeName": "Português"
+      }
+    ],
+    "translations": {
+      "de": "Portugal",
+      "es": "Portugal",
+      "fr": "Portugal",
+      "ja": "ポルトガル",
+      "it": "Portogallo",
+      "br": "Portugal",
+      "pt": "Portugal",
+      "nl": "Portugal",
+      "hr": "Portugal",
+      "fa": "پرتغال"
+    },
+    "flag": "https:\/\/restcountries.eu\/data\/prt.svg",
+    "regionalBlocs": [
+      {
+        "acronym": "EU",
+        "name": "European Union",
+        "otherAcronyms": [
+        ],
+        "otherNames": [
+        ]
+      }
+    ],
+    "cioc": "POR"
+  }
+]
+
+23:19:18.510 [main] INFO  com.intuit.karate.StepDefs - ide running: C:\Users\usuario\IdeaProjects\original1\karatedemo\src\test\java\features\Jenkins.feature
+23:19:19.506 [main] INFO  com.intuit.karate - karate.env system property was: null 
+23:19:20.951 [main] DEBUG com.intuit.karate - 
+1 > GET https://restcountries.eu/rest/v2/name/portugal?fullText=true
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: restcountries.eu
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_251)
+
+23:19:21.730 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Access-Control-Allow-Headers: Accept, X-Requested-With
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5a68873c7881c66b-MAD
+1 < Cache-Control: public, max-age=86400
+1 < Connection: keep-alive
+1 < Content-Type: application/json;charset=utf-8
+1 < Date: Sat, 20 Jun 2020 21:19:28 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d08ef8c02bf21c83d0be61c4ac98273b31592687968; expires=Mon, 20-Jul-20 21:19:28 GMT; path=/; domain=.restcountries.eu; HttpOnly; SameSite=Lax
+1 < Transfer-Encoding: chunked
+1 < cf-request-id: 037532d9cf0000c66b4f945200000001
+[{"name":"Portugal","topLevelDomain":[".pt"],"alpha2Code":"PT","alpha3Code":"PRT","callingCodes":["351"],"capital":"Lisbon","altSpellings":["PT","Portuguesa","Portuguese Republic","República Portuguesa"],"region":"Europe","subregion":"Southern Europe","population":10374822,"latlng":[39.5,-8.0],"demonym":"Portuguese","area":92090.0,"gini":38.5,"timezones":["UTC-01:00","UTC"],"borders":["ESP"],"nativeName":"Portugal","numericCode":"620","currencies":[{"code":"EUR","name":"Euro","symbol":"€"}],"languages":[{"iso639_1":"pt","iso639_2":"por","name":"Portuguese","nativeName":"Português"}],"translations":{"de":"Portugal","es":"Portugal","fr":"Portugal","ja":"ポルトガル","it":"Portogallo","br":"Portugal","pt":"Portugal","nl":"Portugal","hr":"Portugal","fa":"پرتغال"},"flag":"https://restcountries.eu/data/prt.svg","regionalBlocs":[{"acronym":"EU","name":"European Union","otherAcronyms":[],"otherNames":[]}],"cioc":"POR"}]
+
+23:19:21.730 [main] DEBUG com.intuit.karate - response time in milliseconds: 2193
+23:19:21.840 [main] INFO  com.intuit.karate - [print] [
+  {
+    "name": "Portugal",
+    "topLevelDomain": [
+      ".pt"
+    ],
+    "alpha2Code": "PT",
+    "alpha3Code": "PRT",
+    "callingCodes": [
+      "351"
+    ],
+    "capital": "Lisbon",
+    "altSpellings": [
+      "PT",
+      "Portuguesa",
+      "Portuguese Republic",
+      "República Portuguesa"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "population": 10374822,
+    "latlng": [
+      39.5,
+      -8.0
+    ],
+    "demonym": "Portuguese",
+    "area": 92090.0,
+    "gini": 38.5,
+    "timezones": [
+      "UTC-01:00",
+      "UTC"
+    ],
+    "borders": [
+      "ESP"
+    ],
+    "nativeName": "Portugal",
+    "numericCode": "620",
+    "currencies": [
+      {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "\u20AC"
+      }
+    ],
+    "languages": [
+      {
+        "iso639_1": "pt",
+        "iso639_2": "por",
+        "name": "Portuguese",
+        "nativeName": "Português"
+      }
+    ],
+    "translations": {
+      "de": "Portugal",
+      "es": "Portugal",
+      "fr": "Portugal",
+      "ja": "ポルトガル",
+      "it": "Portogallo",
+      "br": "Portugal",
+      "pt": "Portugal",
+      "nl": "Portugal",
+      "hr": "Portugal",
+      "fa": "پرتغال"
+    },
+    "flag": "https:\/\/restcountries.eu\/data\/prt.svg",
+    "regionalBlocs": [
+      {
+        "acronym": "EU",
+        "name": "European Union",
+        "otherAcronyms": [
+        ],
+        "otherNames": [
+        ]
+      }
+    ],
+    "cioc": "POR"
+  }
+]
+
+23:21:20.148 [main] INFO  com.intuit.karate.StepDefs - ide running: C:\Users\usuario\IdeaProjects\original1\karatedemo\src\test\java\features\Jenkins.feature
+23:21:21.015 [main] INFO  com.intuit.karate - karate.env system property was: null 
+23:21:22.383 [main] DEBUG com.intuit.karate - 
+1 > GET https://restcountries.eu/rest/v2/name/portugal?fullText=true
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: restcountries.eu
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_251)
+
+23:21:23.075 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Access-Control-Allow-Headers: Accept, X-Requested-With
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5a688a321f1ad661-MAD
+1 < Cache-Control: public, max-age=86400
+1 < Connection: keep-alive
+1 < Content-Type: application/json;charset=utf-8
+1 < Date: Sat, 20 Jun 2020 21:21:30 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=dc93c0435a5847c6b651e52a4c716d9621592688089; expires=Mon, 20-Jul-20 21:21:29 GMT; path=/; domain=.restcountries.eu; HttpOnly; SameSite=Lax
+1 < Transfer-Encoding: chunked
+1 < cf-request-id: 037534b3510000d6616ab86200000001
+[{"name":"Portugal","topLevelDomain":[".pt"],"alpha2Code":"PT","alpha3Code":"PRT","callingCodes":["351"],"capital":"Lisbon","altSpellings":["PT","Portuguesa","Portuguese Republic","República Portuguesa"],"region":"Europe","subregion":"Southern Europe","population":10374822,"latlng":[39.5,-8.0],"demonym":"Portuguese","area":92090.0,"gini":38.5,"timezones":["UTC-01:00","UTC"],"borders":["ESP"],"nativeName":"Portugal","numericCode":"620","currencies":[{"code":"EUR","name":"Euro","symbol":"€"}],"languages":[{"iso639_1":"pt","iso639_2":"por","name":"Portuguese","nativeName":"Português"}],"translations":{"de":"Portugal","es":"Portugal","fr":"Portugal","ja":"ポルトガル","it":"Portogallo","br":"Portugal","pt":"Portugal","nl":"Portugal","hr":"Portugal","fa":"پرتغال"},"flag":"https://restcountries.eu/data/prt.svg","regionalBlocs":[{"acronym":"EU","name":"European Union","otherAcronyms":[],"otherNames":[]}],"cioc":"POR"}]
+
+23:21:23.076 [main] DEBUG com.intuit.karate - response time in milliseconds: 2030
+23:21:23.215 [main] INFO  com.intuit.karate - [print] [
+  {
+    "name": "Portugal",
+    "topLevelDomain": [
+      ".pt"
+    ],
+    "alpha2Code": "PT",
+    "alpha3Code": "PRT",
+    "callingCodes": [
+      "351"
+    ],
+    "capital": "Lisbon",
+    "altSpellings": [
+      "PT",
+      "Portuguesa",
+      "Portuguese Republic",
+      "República Portuguesa"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "population": 10374822,
+    "latlng": [
+      39.5,
+      -8.0
+    ],
+    "demonym": "Portuguese",
+    "area": 92090.0,
+    "gini": 38.5,
+    "timezones": [
+      "UTC-01:00",
+      "UTC"
+    ],
+    "borders": [
+      "ESP"
+    ],
+    "nativeName": "Portugal",
+    "numericCode": "620",
+    "currencies": [
+      {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "\u20AC"
+      }
+    ],
+    "languages": [
+      {
+        "iso639_1": "pt",
+        "iso639_2": "por",
+        "name": "Portuguese",
+        "nativeName": "Português"
+      }
+    ],
+    "translations": {
+      "de": "Portugal",
+      "es": "Portugal",
+      "fr": "Portugal",
+      "ja": "ポルトガル",
+      "it": "Portogallo",
+      "br": "Portugal",
+      "pt": "Portugal",
+      "nl": "Portugal",
+      "hr": "Portugal",
+      "fa": "پرتغال"
+    },
+    "flag": "https:\/\/restcountries.eu\/data\/prt.svg",
+    "regionalBlocs": [
+      {
+        "acronym": "EU",
+        "name": "European Union",
+        "otherAcronyms": [
+        ],
+        "otherNames": [
+        ]
+      }
+    ],
+    "cioc": "POR"
+  }
+]
+
+23:21:23.316 [main] ERROR com.intuit.karate - assertion failed: path: $[0].capital, actual: 'Lisbon', expected: 'isbon', reason: not equal
+08:58:42.196 [main] INFO  com.intuit.karate.StepDefs - ide running: C:\Users\usuario\IdeaProjects\original1\karatedemo\src\test\java\features\Jenkins.feature
+08:58:43.055 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:58:44.148 [main] DEBUG com.intuit.karate - 
+1 > GET https://restcountries.eu/rest/v2/name/portugal?fullText=true
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: restcountries.eu
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_251)
+
+08:58:44.648 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Access-Control-Allow-Headers: Accept, X-Requested-With
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5a6bd7f02a1c113d-MAD
+1 < Cache-Control: public, max-age=86400
+1 < Connection: keep-alive
+1 < Content-Type: application/json;charset=utf-8
+1 < Date: Sun, 21 Jun 2020 06:58:51 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d5a1c53ff094cb883e82b9b7928f592221592722731; expires=Tue, 21-Jul-20 06:58:51 GMT; path=/; domain=.restcountries.eu; HttpOnly; SameSite=Lax
+1 < Transfer-Encoding: chunked
+1 < cf-request-id: 0377454a1d0000113df2012200000001
+[{"name":"Portugal","topLevelDomain":[".pt"],"alpha2Code":"PT","alpha3Code":"PRT","callingCodes":["351"],"capital":"Lisbon","altSpellings":["PT","Portuguesa","Portuguese Republic","República Portuguesa"],"region":"Europe","subregion":"Southern Europe","population":10374822,"latlng":[39.5,-8.0],"demonym":"Portuguese","area":92090.0,"gini":38.5,"timezones":["UTC-01:00","UTC"],"borders":["ESP"],"nativeName":"Portugal","numericCode":"620","currencies":[{"code":"EUR","name":"Euro","symbol":"€"}],"languages":[{"iso639_1":"pt","iso639_2":"por","name":"Portuguese","nativeName":"Português"}],"translations":{"de":"Portugal","es":"Portugal","fr":"Portugal","ja":"ポルトガル","it":"Portogallo","br":"Portugal","pt":"Portugal","nl":"Portugal","hr":"Portugal","fa":"پرتغال"},"flag":"https://restcountries.eu/data/prt.svg","regionalBlocs":[{"acronym":"EU","name":"European Union","otherAcronyms":[],"otherNames":[]}],"cioc":"POR"}]
+
+08:58:44.648 [main] DEBUG com.intuit.karate - response time in milliseconds: 1562
+08:58:44.726 [main] INFO  com.intuit.karate - [print] [
+  {
+    "name": "Portugal",
+    "topLevelDomain": [
+      ".pt"
+    ],
+    "alpha2Code": "PT",
+    "alpha3Code": "PRT",
+    "callingCodes": [
+      "351"
+    ],
+    "capital": "Lisbon",
+    "altSpellings": [
+      "PT",
+      "Portuguesa",
+      "Portuguese Republic",
+      "República Portuguesa"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "population": 10374822,
+    "latlng": [
+      39.5,
+      -8.0
+    ],
+    "demonym": "Portuguese",
+    "area": 92090.0,
+    "gini": 38.5,
+    "timezones": [
+      "UTC-01:00",
+      "UTC"
+    ],
+    "borders": [
+      "ESP"
+    ],
+    "nativeName": "Portugal",
+    "numericCode": "620",
+    "currencies": [
+      {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "\u20AC"
+      }
+    ],
+    "languages": [
+      {
+        "iso639_1": "pt",
+        "iso639_2": "por",
+        "name": "Portuguese",
+        "nativeName": "Português"
+      }
+    ],
+    "translations": {
+      "de": "Portugal",
+      "es": "Portugal",
+      "fr": "Portugal",
+      "ja": "ポルトガル",
+      "it": "Portogallo",
+      "br": "Portugal",
+      "pt": "Portugal",
+      "nl": "Portugal",
+      "hr": "Portugal",
+      "fa": "پرتغال"
+    },
+    "flag": "https:\/\/restcountries.eu\/data\/prt.svg",
+    "regionalBlocs": [
+      {
+        "acronym": "EU",
+        "name": "European Union",
+        "otherAcronyms": [
+        ],
+        "otherNames": [
+        ]
+      }
+    ],
+    "cioc": "POR"
+  }
+]
+
+08:58:44.758 [main] ERROR com.intuit.karate - assertion failed: path: $[0].capital, actual: 'Lisbon', expected: 'isbon', reason: not equal
+09:09:14.768 [main] INFO  com.intuit.karate.StepDefs - ide running: C:\Users\usuario\IdeaProjects\original1\karatedemo\src\test\java\features\Jenkins.feature
+09:09:15.598 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:09:16.588 [main] DEBUG com.intuit.karate - 
+1 > GET https://restcountries.eu/rest/v2/name/portugal?fullText=true
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: restcountries.eu
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_251)
+
+09:09:17.011 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Access-Control-Allow-Headers: Accept, X-Requested-With
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5a6be7606dcaff08-MAD
+1 < Cache-Control: public, max-age=86400
+1 < Connection: keep-alive
+1 < Content-Type: application/json;charset=utf-8
+1 < Date: Sun, 21 Jun 2020 07:09:24 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=dd8f977e674b4d3b0b278919005a712991592723363; expires=Tue, 21-Jul-20 07:09:23 GMT; path=/; domain=.restcountries.eu; HttpOnly; SameSite=Lax
+1 < Transfer-Encoding: chunked
+1 < cf-request-id: 03774ef03c0000ff0846b9b200000001
+[{"name":"Portugal","topLevelDomain":[".pt"],"alpha2Code":"PT","alpha3Code":"PRT","callingCodes":["351"],"capital":"Lisbon","altSpellings":["PT","Portuguesa","Portuguese Republic","República Portuguesa"],"region":"Europe","subregion":"Southern Europe","population":10374822,"latlng":[39.5,-8.0],"demonym":"Portuguese","area":92090.0,"gini":38.5,"timezones":["UTC-01:00","UTC"],"borders":["ESP"],"nativeName":"Portugal","numericCode":"620","currencies":[{"code":"EUR","name":"Euro","symbol":"€"}],"languages":[{"iso639_1":"pt","iso639_2":"por","name":"Portuguese","nativeName":"Português"}],"translations":{"de":"Portugal","es":"Portugal","fr":"Portugal","ja":"ポルトガル","it":"Portogallo","br":"Portugal","pt":"Portugal","nl":"Portugal","hr":"Portugal","fa":"پرتغال"},"flag":"https://restcountries.eu/data/prt.svg","regionalBlocs":[{"acronym":"EU","name":"European Union","otherAcronyms":[],"otherNames":[]}],"cioc":"POR"}]
+
+09:09:17.011 [main] DEBUG com.intuit.karate - response time in milliseconds: 1387
+09:09:17.058 [main] INFO  com.intuit.karate - [print] [
+  {
+    "name": "Portugal",
+    "topLevelDomain": [
+      ".pt"
+    ],
+    "alpha2Code": "PT",
+    "alpha3Code": "PRT",
+    "callingCodes": [
+      "351"
+    ],
+    "capital": "Lisbon",
+    "altSpellings": [
+      "PT",
+      "Portuguesa",
+      "Portuguese Republic",
+      "República Portuguesa"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "population": 10374822,
+    "latlng": [
+      39.5,
+      -8.0
+    ],
+    "demonym": "Portuguese",
+    "area": 92090.0,
+    "gini": 38.5,
+    "timezones": [
+      "UTC-01:00",
+      "UTC"
+    ],
+    "borders": [
+      "ESP"
+    ],
+    "nativeName": "Portugal",
+    "numericCode": "620",
+    "currencies": [
+      {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "\u20AC"
+      }
+    ],
+    "languages": [
+      {
+        "iso639_1": "pt",
+        "iso639_2": "por",
+        "name": "Portuguese",
+        "nativeName": "Português"
+      }
+    ],
+    "translations": {
+      "de": "Portugal",
+      "es": "Portugal",
+      "fr": "Portugal",
+      "ja": "ポルトガル",
+      "it": "Portogallo",
+      "br": "Portugal",
+      "pt": "Portugal",
+      "nl": "Portugal",
+      "hr": "Portugal",
+      "fa": "پرتغال"
+    },
+    "flag": "https:\/\/restcountries.eu\/data\/prt.svg",
+    "regionalBlocs": [
+      {
+        "acronym": "EU",
+        "name": "European Union",
+        "otherAcronyms": [
+        ],
+        "otherNames": [
+        ]
+      }
+    ],
+    "cioc": "POR"
+  }
+]
+
+11:12:29.213 [main] INFO  com.intuit.karate.StepDefs - ide running: C:\Users\usuario\IdeaProjects\original1\karatedemo\src\test\java\features\country.feature
+11:12:29.989 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:12:30.990 [main] DEBUG com.intuit.karate - 
+1 > GET https://restcountries.eu/rest/v2/name/portugal?fullText=true
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: restcountries.eu
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_251)
+
+11:12:31.406 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Access-Control-Allow-Headers: Accept, X-Requested-With
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5a6c9be74d4fd681-MAD
+1 < Cache-Control: public, max-age=86400
+1 < Connection: keep-alive
+1 < Content-Type: application/json;charset=utf-8
+1 < Date: Sun, 21 Jun 2020 09:12:38 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=ddb0d3084447305790a21bc9d10ad878d1592730758; expires=Tue, 21-Jul-20 09:12:38 GMT; path=/; domain=.restcountries.eu; HttpOnly; SameSite=Lax
+1 < Transfer-Encoding: chunked
+1 < cf-request-id: 0377bfc4880000d681a99e0200000001
+[{"name":"Portugal","topLevelDomain":[".pt"],"alpha2Code":"PT","alpha3Code":"PRT","callingCodes":["351"],"capital":"Lisbon","altSpellings":["PT","Portuguesa","Portuguese Republic","República Portuguesa"],"region":"Europe","subregion":"Southern Europe","population":10374822,"latlng":[39.5,-8.0],"demonym":"Portuguese","area":92090.0,"gini":38.5,"timezones":["UTC-01:00","UTC"],"borders":["ESP"],"nativeName":"Portugal","numericCode":"620","currencies":[{"code":"EUR","name":"Euro","symbol":"€"}],"languages":[{"iso639_1":"pt","iso639_2":"por","name":"Portuguese","nativeName":"Português"}],"translations":{"de":"Portugal","es":"Portugal","fr":"Portugal","ja":"ポルトガル","it":"Portogallo","br":"Portugal","pt":"Portugal","nl":"Portugal","hr":"Portugal","fa":"پرتغال"},"flag":"https://restcountries.eu/data/prt.svg","regionalBlocs":[{"acronym":"EU","name":"European Union","otherAcronyms":[],"otherNames":[]}],"cioc":"POR"}]
+
+11:12:31.406 [main] DEBUG com.intuit.karate - response time in milliseconds: 1389
+11:12:31.453 [main] INFO  com.intuit.karate - [print] [
+  {
+    "name": "Portugal",
+    "topLevelDomain": [
+      ".pt"
+    ],
+    "alpha2Code": "PT",
+    "alpha3Code": "PRT",
+    "callingCodes": [
+      "351"
+    ],
+    "capital": "Lisbon",
+    "altSpellings": [
+      "PT",
+      "Portuguesa",
+      "Portuguese Republic",
+      "República Portuguesa"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "population": 10374822,
+    "latlng": [
+      39.5,
+      -8.0
+    ],
+    "demonym": "Portuguese",
+    "area": 92090.0,
+    "gini": 38.5,
+    "timezones": [
+      "UTC-01:00",
+      "UTC"
+    ],
+    "borders": [
+      "ESP"
+    ],
+    "nativeName": "Portugal",
+    "numericCode": "620",
+    "currencies": [
+      {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "\u20AC"
+      }
+    ],
+    "languages": [
+      {
+        "iso639_1": "pt",
+        "iso639_2": "por",
+        "name": "Portuguese",
+        "nativeName": "Português"
+      }
+    ],
+    "translations": {
+      "de": "Portugal",
+      "es": "Portugal",
+      "fr": "Portugal",
+      "ja": "ポルトガル",
+      "it": "Portogallo",
+      "br": "Portugal",
+      "pt": "Portugal",
+      "nl": "Portugal",
+      "hr": "Portugal",
+      "fa": "پرتغال"
+    },
+    "flag": "https:\/\/restcountries.eu\/data\/prt.svg",
+    "regionalBlocs": [
+      {
+        "acronym": "EU",
+        "name": "European Union",
+        "otherAcronyms": [
+        ],
+        "otherNames": [
+        ]
+      }
+    ],
+    "cioc": "POR"
+  }
+]
+
